@@ -17,7 +17,7 @@ kind: Pod
 metadata:
   name: restartonfailure2
 spec:.
-  restartpolicy: onfailure
+  restartpolicy: Onfailure
   containers:
     - name: success
       image: alpain

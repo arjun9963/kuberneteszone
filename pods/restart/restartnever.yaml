@@ -4,7 +4,7 @@ kind: Pod
 metadata:
   name: restartnever
 spec:
-  restartpolicy: never
+  restartpolicy: Never
   containers:
     - name: nginx
       image: nginx 
