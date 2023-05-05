@@ -1,0 +1,14 @@
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  name: restartnever
+spec:
+  restartpolicy: never
+  containers:
+    - name: nginx
+      image: nginx 
+      args
+        - sleep
+        - 3s
+    
