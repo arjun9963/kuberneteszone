@@ -2,7 +2,7 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: restarnever
+  name: restartnever
 spec:
   restartPolicy: Never
   containers:

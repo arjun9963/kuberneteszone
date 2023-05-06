@@ -4,10 +4,12 @@ kind: job
 metadata:
   name: hellojob
 spec:
+  backoffLimit: 5
   template:
     metadata:
       name: jobpod
     spec:
+      restartPolicy: Onfailure    
       containers:
         - image: alpine
           command:

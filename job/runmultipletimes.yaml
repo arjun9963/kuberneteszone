@@ -9,6 +9,8 @@ spec:
     metadata:
       name: getlivedata
     spec:
+      backoffLimit: 2
+      restartPolicy: Onfailure    
       template:
         metadata:
           name: livedatapod
