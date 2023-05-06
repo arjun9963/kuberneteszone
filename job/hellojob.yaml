@@ -11,6 +11,7 @@ spec:
     spec:
       restartPolicy: Onfailure    
       containers:
+        - name: alpine
         - image: alpine
           command:
             - sleep
